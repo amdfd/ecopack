@@ -1,0 +1,23 @@
+.botao {
+  display: inline-block;
+  padding: 15px 20px;
+  text-transform: uppercase;
+  background: linear-gradient(#a5a58d, #6b705c);
+  border-radius: 5px;
+  box-shadow: 0 1 2 rgba(0, 0, 0, 0.1);
+  font-size: 1.125rem;
+  line-height: 1.33;
+  font-weight: 600;
+  font-family: "Libre Franklin";
+}
+
+.botao:hover {
+  background: linear-gradient(#a5a58d, #b7b7a4);
+}
+
+@media (max-width: 600px) {
+  .botao {
+    padding: 12px 16px;
+    font-size: 1rem;
+  }
+}
