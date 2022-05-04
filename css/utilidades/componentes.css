@@ -5,10 +5,7 @@
   background: linear-gradient(#a5a58d, #6b705c);
   border-radius: 5px;
   box-shadow: 0 1 2 rgba(0, 0, 0, 0.1);
-  font-size: 1.125rem;
-  line-height: 1.33;
-  font-weight: 600;
-  font-family: "Libre Franklin";
+  font: 600 1.125rem/1.5 "Libre Franklin", sans-serif;
 }
 
 .botao:hover {

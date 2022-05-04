@@ -1,6 +1,5 @@
 .introducao-bg {
-  background-color: #000000;
-  color: #ffffff;
+  background-color: var(--cor-12);
   box-shadow: inset 0 -120px #ffffff;
 }
 
@@ -30,32 +29,12 @@
 .introducao h1 {
   margin-bottom: 32px;
   margin-top: 132px;
-  font-size: 4rem;
-  line-height: 1.125;
   max-width: 9ch;
-  font-family: "Libre Franklin";
-  font-weight: 600;
 }
 
 .introducao p {
   margin-bottom: 20px;
-  font-size: 1.5rem;
-  line-height: 1.5;
-  color: #cccccc;
   max-width: 30ch;
-  font-family: "Roboto";
-  font-weight: 400;
-}
-
-
-
-@media (max-width: 1200px) {
-  .introducao h1 {
-    font-size: 3rem;
-  }
-  .introducao p {
-    font-size: 1.125rem;
-  }
 }
 
 @media (max-width: 800px) {
@@ -70,7 +49,6 @@
     padding-bottom: 0px;
   }
   .introducao h1 {
-    font-size: 2rem;
     margin-bottom: 16px;
     margin-top: 60px;
     max-width: none;
