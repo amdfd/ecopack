@@ -3,9 +3,16 @@
 @import "./utilidades/cores.css";
 
 @import "./global/header.css";
+@import "./global/footer.css";
 
 /* Utilidades */
 @import "./utilidades/componentes.css";
 
 /* Home */
 @import "./global/home/introducao.css";
+@import "./global/home/sustentabilidade.css";
+@import "./global/home/parceiros.css";
+@import "./global/home/depoimento.css";
+
+/* Mochilas */
+@import "./mochilas/mochilas-lista.css";
