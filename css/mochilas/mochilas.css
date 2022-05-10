@@ -1,0 +1,95 @@
+.mochilas-bg {
+  background-image: linear-gradient(to right, var(--cor-0) 30%, var(--cor-11) 0%);
+}
+
+.mochilas {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.mochilas-imagem {
+  position: relative;
+}
+
+.mochilas-imagem span {
+  background-color: var(--cor-12);
+  padding: 8px 16px 8px 8px;
+  display: inline-block;
+  position: absolute;
+  top: 20px;
+  left: 0;
+  border-radius: 0px 5px 5px 0px;
+}
+
+.mochilas-conteudo {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-content: start;
+}
+
+.mochilas h2,
+.mochilas p {
+  grid-column: 1 / -1;
+}
+
+.mochilas h2 {
+  margin-bottom: 20px;
+}
+
+.mochilas h2::before {
+  content: "";
+  display: block;
+  width: 12px;
+  height: 8px;
+  background-color: var(--cor-p3);
+  margin-bottom: 8px;
+}
+
+.mochilas p {
+  margin-bottom: 32px;
+}
+
+.mochilas a {
+  place-self: end;
+}
+
+.mochilas li {
+  display: flex;
+  align-items: center;
+}
+.mochilas li + li {
+  margin-top: 16px;
+}
+
+.mochilas-conteudo img {
+  width: 24px;
+  margin-right: 8px;
+}
+
+@media (max-width: 800px) {
+  .mochilas-bg {
+    background: var(--cor-11);
+  }
+  .mochilas {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
+
+@media (max-width: 600px) {
+  .mochilas-conteudo {
+    grid-template-columns: 1fr;
+  }
+  .mochilas ul {
+    font-size: 1rem;
+    margin-bottom: 32px;
+  }
+  .mochilas a {
+    place-self: start;
+  }
+}

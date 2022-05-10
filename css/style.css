@@ -16,3 +16,7 @@
 
 /* Mochilas */
 @import "./mochilas/mochilas-lista.css";
+@import "./mochilas/mochilas.css";
+
+/* Termos */
+@import "./termos/termos.css";
