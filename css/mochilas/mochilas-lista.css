@@ -38,7 +38,7 @@
 
 .mochilas-lista h3::before {
   content: "";
-  background: linear-gradient(180deg, #A5A58D 0%, #6B705C 100%);
+  background: linear-gradient(180deg, #a5a58d 0%, #6b705c 100%);
   display: inline-block;
   width: 12px;
   height: 8px;
