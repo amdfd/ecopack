@@ -18,5 +18,10 @@
 @import "./mochilas/mochilas-lista.css";
 @import "./mochilas/mochilas.css";
 
+/* Sustentabilidade */
+@import "./sustentabilidade/sustentabilidade.css";
+@import "./sustentabilidade/vantagens.css";
+@import "./sustentabilidade/perguntas.css";
+
 /* Termos */
 @import "./termos/termos.css";
