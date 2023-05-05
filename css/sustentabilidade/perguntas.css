@@ -32,7 +32,7 @@
   background-color: var(--cor-p1);
 }
 
-.perguntas dt:hover::after {
+.perguntas dt::after {
   content: "";
   display: inline-block;
   width: 14px;
@@ -49,6 +49,7 @@
   padding-left: 20px;
   padding-top: 16px;
   max-width: 80ch;
+  margin: 0;
 }
 
 @media (max-width: 800px) {
