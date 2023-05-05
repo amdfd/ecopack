@@ -11,5 +11,7 @@ na mesma plataforma.
   <li>JavaScript</li>
 </ul>
 
-# Visualização
-<a href="https://amdfd.github.io/ecopack/">ECO/PACK</a> (em desenvolvimento).
+# Protótipo e Deploy
+<ul>
+  <li><a href="https://www.figma.com/file/RawKNZwysvy7geicWnLlvk/ecopack-prototipo?type=design&t=9SYpUmiI1HeBLC8C-1">Protótipo</a></li>
+  <li><a href="https://amdfd.github.io/ecopack/">ECO/PACK (em desenvolvimento).</a></li>
