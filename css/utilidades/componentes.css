@@ -17,6 +17,8 @@
   box-shadow: 0 1 2 rgba(0, 0, 0, 0.1);
   font: 600 1.125rem/1.5 "Libre Franklin", sans-serif;
   max-width: max-content;
+  border: none;
+  cursor: pointer;
 }
 
 .botao:hover {
