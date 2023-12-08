@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Mochilas para quem tem uma rotina corrida, busca praticidade e se preocupa com o meio ambiente.">
   <title>ECO/PACK - Mochilas Sustentáveis</title>
+  <link rel="preload" href="./css/style.css" as="style">
   <link rel="stylesheet" href="./css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,7 +17,7 @@
 <body>
   <header class="header-bg">
     <div class="header container">
-      <a href="./"><img src="./img/logo.svg" alt="ECO/PACK"></a>
+      <a href="./"><img src="./img/logo.svg" width="223" height="51" alt="ECO/PACK"></a>
       <nav aria-label="primaria">
         <ul class="header-menu font-1-m cor-11">
           <li><a href="./mochilas.html">Mochilas</a></li>
@@ -33,9 +34,10 @@
         <p class="font-2-l cor-4">Nossas mochilas foram pensadas para quem tem uma rotina corrida, busca praticidade e se preocupa com o meio ambiente.</p>
         <a class="botao cor-0" href="./mochilas.html">Veja os modelos</a>
       </div>
-      <div>
-        <img src="./img/fotos/mochilas-display.jpg" alt="Uma mochila preta e uma mochila vermelha.">
-      </div>
+      <picture>
+        <source media="(max-width: 800px)" srcset="./img/fotos/mochila-preta.jpg">
+        <img src="./img/fotos/mochilas-display.jpg" width="1200" height="801" alt="Uma mochila preta e uma mochila vermelha.">
+      </picture>
     </div>
   </main>
   <article class="mochilas-lista">
@@ -74,26 +76,26 @@
       </div>
 
       <div class="sustentabilidade-imagem">
-        <img src="./img/fotos/folhas.jpg" alt="">
+        <img src="./img/fotos/folhas.jpg" width="1200" height="1800" alt="">
       </div>
     </div>
   </article>
   <section class="parceiros" aria-label="Nossos Parceiros">
     <h2 class="container font-1-xxl cor-11">Nossos parceiros<span class="cor-p3">.</span></h2>
     <ul>
-      <li><img src="./img/parceiros/caravan.svg" alt="Caravan"></li>
-      <li><img src="./img/parceiros/dogs.svg" alt="Dogs"></li>
-      <li><img src="./img/parceiros/flexblog.svg" alt="FlexBlog"></li>
-      <li><img src="./img/parceiros/handel.svg" alt="Handel"></li>
-      <li><img src="./img/parceiros/lescone.svg" alt="LeScone"></li>
-      <li><img src="./img/parceiros/ranek.svg" alt="Ranek"></li>
-      <li><img src="./img/parceiros/surfbot.svg" alt="Surfbot"></li>
-      <li><img src="./img/parceiros/wildbeast.svg" alt="Wildbeast"></li>
+      <li><img src="./img/parceiros/caravan.svg" width="140" height="38" alt="Caravan"></li>
+      <li><img src="./img/parceiros/dogs.svg" width="152" height="39" alt="Dogs"></li>
+      <li><img src="./img/parceiros/flexblog.svg" width="156" height="38" alt="FlexBlog"></li>
+      <li><img src="./img/parceiros/handel.svg" width="139" height="50" alt="Handel"></li>
+      <li><img src="./img/parceiros/lescone.svg" width="198" height="41" alt="LeScone"></li>
+      <li><img src="./img/parceiros/ranek.svg" width="148" height="36" alt="Ranek"></li>
+      <li><img src="./img/parceiros/surfbot.svg" width="190" height="49" alt="Surfbot"></li>
+      <li><img src="./img/parceiros/wildbeast.svg" width="187" height="34" alt="Wildbeast"></li>
     </ul>
   </section>
   <section class="depoimento" aria-label="Depoimento">
     <div>
-      <img src="./img/fotos/depoimento.jpg" alt="Pessoa de costas vestindo mochila Ecopack laranja.">
+      <img src="./img/fotos/depoimento.jpg" width="1200" height="800" alt="Pessoa de costas vestindo mochila Ecopack laranja.">
     </div>
     <div class="depoimento-conteudo">
       <blockquote class="font-1-xl cor-p1">
@@ -115,13 +117,13 @@
         </ul>
         <div class="footer-redes">
           <a href="./">
-            <img src="./img/redes/facebook.svg" alt="Facebook">
+            <img src="./img/redes/facebook.svg" width="32" height="32" alt="Facebook">
           </a>
           <a href="./">
-            <img src="./img/redes/instagram.svg" alt="Instagram">
+            <img src="./img/redes/instagram.svg" width="32" height="32" alt="Instagram">
           </a>
           <a href="./">
-            <img src="./img/redes/youtube.svg" alt="YouTube">
+            <img src="./img/redes/youtube.svg" width="32" height="32" alt="YouTube">
           </a>
         </div>
       </div>

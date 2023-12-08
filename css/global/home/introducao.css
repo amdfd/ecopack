@@ -1,6 +1,6 @@
 .introducao-bg {
-  background-color: var(--cor-12);
-  box-shadow: inset 0 -120px #ffffff;
+  background: var(--cor-12) url(../../../img/decoradores/decorador-bl.svg) no-repeat bottom 20px left 20px;
+  box-shadow: inset 0 -120px var(--cor-w);
 }
 
 .introducao {
