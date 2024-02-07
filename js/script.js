@@ -1,4 +1,4 @@
-// ativar links do menu de acordo com a página atual
+// ATIVAR LINKS DO MENU DE ACORDO COM A PÁGINA ATUAL
 const links = document.querySelectorAll('.header-menu a');
 
 function ativarLink(link) {
@@ -12,7 +12,7 @@ function ativarLink(link) {
 
 links.forEach(ativarLink)
 
-// inserir mensagem de contato de acordo com botão clicado
+// INSERIR MENSAGEM DE CONTATO DE ACORDO COM O BOTÃO CLICADO
 const parametros = new URLSearchParams(location.search);
 
 function inserirMensagem(parametro) {
@@ -30,3 +30,39 @@ function inserirMensagem(parametro) {
 }
 
 parametros.forEach(inserirMensagem)
+
+// PERGUNTAS FREQUENTES
+const perguntas = document.querySelectorAll('.perguntas button');
+
+function ativarPergunta(event) {
+    const pergunta = event.currentTarget;
+    const controls = pergunta.getAttribute('aria-controls');
+    const resposta = document.getElementById(controls);
+
+    pergunta.setAttribute('aria-expanded', resposta.classList.contains('ativa') ? 'false' : 'true');
+    resposta.classList.toggle("ativa");
+}
+
+function eventosPerguntas(pergunta) {
+    pergunta.addEventListener('click', ativarPergunta) 
+}
+
+perguntas.forEach(eventosPerguntas);
+
+// GALERIA DE IMAGENS - MOCHILAS
+const galeria = document.querySelectorAll('.mochila-imagens img');
+const galeriaContainer = document.querySelector('.mochila-imagens');
+
+function trocarImagem(event) {
+    const img = event.currentTarget;
+    const media = matchMedia('(min-width: 1000px)').matches;
+    if(media) {
+        galeriaContainer.prepend(img);
+    }
+}
+
+function eventosGaleria(img) {
+    img.addEventListener('click', trocarImagem);
+};
+
+galeria.forEach(eventosGaleria);
