@@ -12,6 +12,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;600&family=Merriweather:ital,wght@1,900&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+  <script>document.documentElement.classList.add('js');</script>
 </head>
 
 <body>
@@ -30,11 +32,11 @@
   <main class="introducao-bg">
     <div class="introducao container">
       <div class="introducao-conteudo">
-        <h1 class="font-1-xxl cor-0">Práticas, sustentáveis e modernas</h1>
-        <p class="font-2-l cor-4">Nossas mochilas foram pensadas para quem tem uma rotina corrida, busca praticidade e se preocupa com o meio ambiente.</p>
-        <a class="botao cor-0" href="./mochilas.html">Veja os modelos</a>
+        <h1 class="font-1-xxl cor-0 fadeInDown" data-anime="200" >Práticas, sustentáveis e modernas</h1>
+        <p class="font-2-l cor-4 fadeInDown" data-anime="400">Nossas mochilas foram pensadas para quem tem uma rotina corrida, busca praticidade e se preocupa com o meio ambiente.</p>
+        <a class="botao cor-0 fadeInDown" data-anime="600" href="./mochilas.html">Veja os modelos</a>
       </div>
-      <picture>
+      <picture class="fadeInDown" data-anime="800">
         <source media="(max-width: 800px)" srcset="./img/fotos/mochila-preta.jpg">
         <img src="./img/fotos/mochilas-display.jpg" width="1200" height="801" alt="Uma mochila preta e uma mochila vermelha.">
       </picture>
@@ -141,6 +143,7 @@
       <p class="footer-copy font-2-m cor-6">ECO/PACK © Alguns direitos reservados.</p>
     </div>
   </footer>
+  <script src="./js/plugins/simple-anime.js"></script>
   <script src="./js/script.js"></script>
 </body>
 
