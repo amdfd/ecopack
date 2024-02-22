@@ -71,3 +71,24 @@ galeria.forEach(eventosGaleria);
 if (window.SimpleAnime) {
     new SimpleAnime();
 }
+
+// FORMULÁRIO (MOCK)
+const formulario = document.querySelector("form");
+
+function formularioEnviado() {
+    alert("Mensagem enviada com sucesso!");
+    const botao = document.querySelector("form button");
+    botao.disabled = false;
+    botao.innerText = "Enviar Mensagem";
+    formulario.reset();
+}
+
+function enviarFormulario(event) {
+    event.preventDefault();
+    const botao = document.querySelector("form button");
+    botao.disabled = true;
+    botao.innerText = "Enviando...";
+    setTimeout(formularioEnviado, 2000);
+}
+
+formulario.addEventListener("submit", enviarFormulario);
